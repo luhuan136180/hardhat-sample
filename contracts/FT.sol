@@ -40,3 +40,5 @@ contract FT is ERC20,Pausable {
         require(!paused(), "ERC20Pausable: token transfer while paused");
     }
 }
+
+{zzzz}
