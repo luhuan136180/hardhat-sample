@@ -14,6 +14,8 @@ contract FT is ERC20,Pausable {
         require(msg.sender==owner,"onlyOwner");
         _;
     }
+    
+    {aaaa}
     // TODO 实现mint的权限控制，只有owner可以mint
     function mint(address account, uint256 amount) external onlyOwner {
         _mint(account,amount);
